@@ -56,8 +56,8 @@ class CalculatorViewController: BaseController {
     
     private func calculateRate() {
         
+        // Validate Input
         guard let baseText = baseTextField.text, !baseText.isEmpty else {
-                        
             selectedTextField.text = "0"
             return
         }
