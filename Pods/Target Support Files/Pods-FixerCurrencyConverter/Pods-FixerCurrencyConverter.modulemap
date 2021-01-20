@@ -1,0 +1,6 @@
+framework module Pods_FixerCurrencyConverter {
+  umbrella header "Pods-FixerCurrencyConverter-umbrella.h"
+
+  export *
+  module * { export * }
+}
